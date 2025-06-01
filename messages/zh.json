@@ -33,28 +33,28 @@
     },
     "dashboard": {
       "webDevelopment": {
-        "title": "Web开发",
-        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Omnis tempore perferendis explicabo."
+        "title": "LLM应用开发",
+        "description": "利用大语言模型构建和部署Web应用程序，轻松实现智能化解决方案。"
       },
       "digitalMarketing": {
-        "title": "数字营销",
-        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Omnis tempore perferendis explicabo."
+        "title": "AI聊天机器人",
+        "description": "构建高性能AI聊天机器人，提升客户服务质量和用户互动体验。"
       },
       "saasProducts": {
-        "title": "SaaS产品",
-        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Omnis tempore perferendis explicabo."
+        "title": "多模态AI",
+        "description": "整合文本、图像、语音的多模态AI解决方案，提供创新的用户体验。"
       },
       "appsDevelopment": {
-        "title": "应用开发",
-        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Omnis tempore perferendis explicabo."
+        "title": "语音AI集成",
+        "description": "运用语音识别和语音合成技术开发应用程序，创造全新的用户交互方式。"
       },
       "seoServices": {
-        "title": "SEO服务",
-        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Omnis tempore perferendis explicabo."
+        "title": "AI内容生成",
+        "description": "自动生成高质量内容，最大化SEO优化效果和营销成果。"
       },
       "dataAnalysis": {
-        "title": "数据分析",
-        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Omnis tempore perferendis explicabo."
+        "title": "智能分析",
+        "description": "运用AI进行数据分析和洞察，支持商业决策并加速企业成长。"
       },
       "readMore": "阅读更多"
     },

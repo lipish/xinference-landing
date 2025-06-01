@@ -26,32 +26,37 @@
       "trial": "トライアル申請",
       "demo": "デモを見る"
     },
+    "stats": {
+      "githubStars": "GitHub Stars",
+      "globalDeployments": "グローバル展開",
+      "enterpriseUsers": "エンタープライズユーザー"
+    },
     "dashboard": {
       "webDevelopment": {
-        "title": "Web開発",
-        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Omnis tempore perferendis explicabo."
+        "title": "LLMアプリケーション",
+        "description": "大規模言語モデルを活用したWebアプリケーションの開発とデプロイメントを簡単に実現できます。"
       },
       "digitalMarketing": {
-        "title": "デジタルマーケティング",
-        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Omnis tempore perferendis explicabo."
+        "title": "AIチャットボット",
+        "description": "高性能なAIチャットボットを構築し、カスタマーサポートやユーザーエンゲージメントを向上させます。"
       },
       "saasProducts": {
-        "title": "SaaS製品",
-        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Omnis tempore perferendis explicabo."
+        "title": "マルチモーダルAI",
+        "description": "テキスト、画像、音声を統合したマルチモーダルAIソリューションで革新的な体験を提供します。"
       },
       "appsDevelopment": {
-        "title": "アプリ開発",
-        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Omnis tempore perferendis explicabo."
+        "title": "音声AI統合",
+        "description": "音声認識と音声合成技術を活用したアプリケーション開発で、新しいユーザー体験を創造します。"
       },
       "seoServices": {
-        "title": "SEOサービス",
-        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Omnis tempore perferendis explicabo."
+        "title": "AIコンテンツ生成",
+        "description": "高品質なコンテンツを自動生成し、SEO最適化とマーケティング効果を最大化します。"
       },
       "dataAnalysis": {
-        "title": "データ分析",
-        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Omnis tempore perferendis explicabo."
+        "title": "インテリジェント分析",
+        "description": "AIを活用したデータ分析と洞察により、ビジネスの意思決定を支援し成長を加速します。"
       },
-      "readMore": "詳細を読む"
+      "readMore": "詳細を見る"
     },
     "tags": {
       "performance": "高性能",

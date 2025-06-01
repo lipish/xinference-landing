@@ -26,30 +26,35 @@
       "trial": "체험 신청",
       "demo": "데모 보기"
     },
+    "stats": {
+      "githubStars": "GitHub Stars",
+      "globalDeployments": "글로벌 배포",
+      "enterpriseUsers": "기업 사용자"
+    },
     "dashboard": {
       "webDevelopment": {
-        "title": "웹 개발",
-        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Omnis tempore perferendis explicabo."
+        "title": "LLM 애플리케이션",
+        "description": "대규모 언어 모델을 활용한 웹 애플리케이션 개발과 배포를 쉽게 구현할 수 있습니다."
       },
       "digitalMarketing": {
-        "title": "디지털 마케팅",
-        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Omnis tempore perferendis explicabo."
+        "title": "AI 챗봇",
+        "description": "고성능 AI 챗봇을 구축하여 고객 지원과 사용자 참여도를 향상시킵니다."
       },
       "saasProducts": {
-        "title": "SaaS 제품",
-        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Omnis tempore perferendis explicabo."
+        "title": "멀티모달 AI",
+        "description": "텍스트, 이미지, 음성을 통합한 멀티모달 AI 솔루션으로 혁신적인 경험을 제공합니다."
       },
       "appsDevelopment": {
-        "title": "앱 개발",
-        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Omnis tempore perferendis explicabo."
+        "title": "음성 AI 통합",
+        "description": "음성 인식과 음성 합성 기술을 활용한 애플리케이션 개발로 새로운 사용자 경험을 창조합니다."
       },
       "seoServices": {
-        "title": "SEO 서비스",
-        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Omnis tempore perferendis explicabo."
+        "title": "AI 콘텐츠 생성",
+        "description": "고품질 콘텐츠를 자동 생성하여 SEO 최적화와 마케팅 효과를 극대화합니다."
       },
       "dataAnalysis": {
-        "title": "데이터 분석",
-        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Omnis tempore perferendis explicabo."
+        "title": "인텔리전트 분석",
+        "description": "AI를 활용한 데이터 분석과 인사이트로 비즈니스 의사결정을 지원하고 성장을 가속화합니다."
       },
       "readMore": "더 읽기"
     },

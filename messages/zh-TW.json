@@ -26,30 +26,35 @@
       "trial": "申請試用",
       "demo": "觀看演示"
     },
+    "stats": {
+      "githubStars": "GitHub Stars",
+      "globalDeployments": "全球部署",
+      "enterpriseUsers": "企業用戶"
+    },
     "dashboard": {
       "webDevelopment": {
-        "title": "Web開發",
-        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Omnis tempore perferendis explicabo."
+        "title": "LLM應用程式",
+        "description": "運用大型語言模型開發和部署Web應用程式，輕鬆實現智慧化解決方案。"
       },
       "digitalMarketing": {
-        "title": "數位行銷",
-        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Omnis tempore perferendis explicabo."
+        "title": "AI聊天機器人",
+        "description": "建構高效能AI聊天機器人，提升客戶服務品質和使用者互動體驗。"
       },
       "saasProducts": {
-        "title": "SaaS產品",
-        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Omnis tempore perferendis explicabo."
+        "title": "多模態AI",
+        "description": "整合文字、圖像、語音的多模態AI解決方案，提供創新的使用者體驗。"
       },
       "appsDevelopment": {
-        "title": "應用程式開發",
-        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Omnis tempore perferendis explicabo."
+        "title": "語音AI整合",
+        "description": "運用語音識別和語音合成技術開發應用程式，創造全新的使用者互動方式。"
       },
       "seoServices": {
-        "title": "SEO服務",
-        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Omnis tempore perferendis explicabo."
+        "title": "AI內容生成",
+        "description": "自動生成高品質內容，最大化SEO優化效果和行銷成果。"
       },
       "dataAnalysis": {
-        "title": "數據分析",
-        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Omnis tempore perferendis explicabo."
+        "title": "智慧分析",
+        "description": "運用AI進行數據分析和洞察，支援商業決策並加速企業成長。"
       },
       "readMore": "閱讀更多"
     },

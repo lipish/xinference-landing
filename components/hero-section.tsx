@@ -83,7 +83,7 @@ export function HeroSection() {
                 </svg>
               </div>
               <div>
-                <div className="text-2xl font-bold gradient-text-brand">200+</div>
+                <div className="text-2xl font-bold gradient-text-brand">300+</div>
                 <div className="text-sm text-text-secondary">{t("stats.enterpriseUsers")}</div>
               </div>
             </div>

@@ -33,28 +33,28 @@
     },
     "dashboard": {
       "webDevelopment": {
-        "title": "Web Development",
-        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Omnis tempore perferendis explicabo."
+        "title": "LLM Applications",
+        "description": "Build and deploy web applications powered by large language models with ease and efficiency."
       },
       "digitalMarketing": {
-        "title": "Digital Marketing",
-        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Omnis tempore perferendis explicabo."
+        "title": "AI Chatbots",
+        "description": "Create high-performance AI chatbots to enhance customer support and user engagement."
       },
       "saasProducts": {
-        "title": "SaaS Products",
-        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Omnis tempore perferendis explicabo."
+        "title": "Multimodal AI",
+        "description": "Integrate text, image, and audio capabilities with multimodal AI solutions for innovative experiences."
       },
       "appsDevelopment": {
-        "title": "Apps Development",
-        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Omnis tempore perferendis explicabo."
+        "title": "Voice AI Integration",
+        "description": "Leverage speech recognition and synthesis technologies to create new user interaction experiences."
       },
       "seoServices": {
-        "title": "SEO Services",
-        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Omnis tempore perferendis explicabo."
+        "title": "AI Content Generation",
+        "description": "Automatically generate high-quality content to maximize SEO optimization and marketing effectiveness."
       },
       "dataAnalysis": {
-        "title": "Data Analysis",
-        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Omnis tempore perferendis explicabo."
+        "title": "Intelligent Analytics",
+        "description": "Utilize AI-powered data analysis and insights to support business decisions and accelerate growth."
       },
       "readMore": "Read More"
     },
