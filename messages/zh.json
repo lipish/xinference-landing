@@ -3,7 +3,7 @@
     "title": "Xinference",
     "nav": {
       "features": "功能特性",
-      "models": "模型",
+      "pricing": "价格",
       "docs": "文档",
       "contact": "联系我们"
     },
@@ -14,9 +14,9 @@
     }
   },
   "hero": {
-    "title": "Xinference：统一AI推理平台",
+    "title": "企业级大模型部署和管理的一站式平台",
     "subtitle": "任意模型，任意硬件，卓越性能",
-    "description": "轻松部署、管理和扩展LLM、多模态和语音模型，使用我们的企业级全栈推理平台。您的基础架构，您的模型，已优化。",
+    "description": "Xinference 提供强大的异构多模型推理能力，支持企业高效部署和管理AI大模型，赋能业务创新",
     "features": "模型全生命周期管理、多推理引擎、异构 GPU、高吞吐和高可用、高效调度策略",
     "openSource": {
       "title": "开源与免费使用",
@@ -27,29 +27,33 @@
     }
   },
   "features": {
-    "models": {
-      "title": "丰富的模型支持",
-      "description": "提供100+最新开源模型，从文本语音视频到 embedding/rerank 模型，始终保持最快适配。"
+    "engines": {
+      "title": "多引擎同时推理",
+      "description": "支持 vLLM、SGLang、Transformer、MLX 等引擎同时启动，为企业大规模提供多特性推理服务。"
     },
     "hardware": {
-      "title": "广泛的硬件支持",
-      "description": "支持多种硬件平台，支持国产 GPU，包括华为昇腾、海光、天数等。可同时支持多种硬件共同服务"
-    },
-    "ecosystem": {
-      "title": "生态丰富",
-      "description": "多种主流开发框架已经原生支持 Xinference，包括 Langchain、Dify、Ragflow、FastGPT 等"
-    },
-    "engines": {
-      "title": "多推理引擎支持",
-      "description": "优化支持多种主流推理引擎，包括 vLLM、SGLang、TensorRT、Transformers、MLX、LMDeploy 等"
+      "title": "广泛的算力支持",
+      "description": "全面适配国内外主流算力芯片：NVIDIA、Ascend、Intel、Cambricon、Hygon 等异构硬件。"
     },
     "performance": {
-      "title": "高性能推理",
-      "description": "原生分布式架构，可轻松水平扩展集群，支持多种调度策略适应低延迟、高上下文、高吞吐等不同场景"
+      "title": "企业级分布式部署",
+      "description": "基于自研 Xoscar 高性能分布式计算底座，支持20万核级规模稳定运营，具备自动负载均衡和故障恢复能力。"
+    },
+    "models": {
+      "title": "全面的模型仓库",
+      "description": "集成100+最新模型，包括 deepseek、Qwen3、InternVL 等主流模型，支持语音、多模态等多种模型类型。"
     },
     "enterprise": {
-      "title": "企业级特性",
-      "description": "支持用户权限管理、单点登录、批处理、多租户隔离、模型微调、可观测等众多企业级特性"
+      "title": "企业级管理功能",
+      "description": "提供微调支持、权限管理、监控系统、批处理等企业级功能，满足金融、医疗等专业领域需求。"
+    },
+    "ecosystem": {
+      "title": "丰富的生态系统",
+      "description": "无缝集成主流AI框架和工具，兼容OpenAI API、LangChain等主流AI开发生态系统。"
+    },
+    "concurrency": {
+      "title": "高并发优化",
+      "description": "针对企业高并发场景优化，支持结构化输出，提供内存优化和性能加速，保障业务连续性和稳定性。"
     }
   },
   "openSource": {

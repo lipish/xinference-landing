@@ -27,29 +27,29 @@
     }
   },
   "features": {
-    "models": {
-      "title": "支持的模型豐富",
-      "description": "提供100+最新開源模型，從文本語音視頻到 embedding/rerank 模型，始終保持最快適配。"
+    "engines": {
+      "title": "多引擎同時推理",
+      "description": "支援 vLLM、SGLang、Transformer、MLX 等引擎同時啟動，為企業大規模提供多特性推理服務。"
     },
     "hardware": {
-      "title": "廣泛的硬體支持",
-      "description": "支持多種硬體平台，支持國產 GPU，包括華為昇騰、海光、天數等。可同時支持多種硬體共同服務"
-    },
-    "ecosystem": {
-      "title": "生態豐富",
-      "description": "多種主流開發框架已經原生支持 Xinference，包括 Langchain、Dify、Ragflow、FastGPT 等"
-    },
-    "engines": {
-      "title": "多推理引擎支持",
-      "description": "優化支持多種主流推理引擎，包括 vLLM、SGLang、TensorRT、Transformers、MLX、LMDeploy 等"
+      "title": "廣泛的算力支援",
+      "description": "全面適配國內外主流算力晶片：NVIDIA、Ascend、Intel、Cambricon、Hygon 等異構硬體。"
     },
     "performance": {
-      "title": "高性能推理",
-      "description": "原生分佈式架構，可輕鬆水平擴展集群，支持多種調度策略適應低延遲、高上下文、高吞吐等不同場景"
+      "title": "企業級分散式部署",
+      "description": "基於自研 Xoscar 高效能分散式運算底座，支援20萬核規模穩定運行，具備自動負載均衡和故障恢復能力。"
+    },
+    "models": {
+      "title": "全面的模型倉庫",
+      "description": "整合100+最新模型，包括 deepseek、Qwen3、InternVL 等主流模型，支援語音、多模態等多種模型類型。"
     },
     "enterprise": {
-      "title": "企業級特性",
-      "description": "支持用戶權限管理、單點登錄、批處理、多租戶隔離、模型微調、可觀測等眾多企業級特性"
+      "title": "企業級管理功能",
+      "description": "提供調優支援、權限管理、監控系統、批次處理等企業級功能，滿足金融、醫療等專業領域需求。"
+    },
+    "concurrency": {
+      "title": "高併發優化",
+      "description": "針對企業高併發場景優化，支援結構化輸出，提供記憶體優化和效能加速，保障業務連續性和穩定性。"
     }
   },
   "openSource": {

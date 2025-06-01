@@ -27,29 +27,29 @@
     }
   },
   "features": {
-    "models": {
-      "title": "豊富なモデルサポート",
-      "description": "100以上の最新オープンソースモデルを提供、テキスト・音声・動画からembedding/rerankモデルまで、常に最速で適応します。"
+    "engines": {
+      "title": "マルチエンジン同時推論",
+      "description": "vLLM、SGLang、Transformer、MLXなどのエンジンを同時に起動し、企業向けに大規模なマルチ特性推論サービスを提供します。"
     },
     "hardware": {
-      "title": "幅広いハードウェアサポート",
-      "description": "複数のハードウェアプラットフォームをサポート、Huawei Ascend、Hygon、Tianshuなどの国産GPUを含む。複数のハードウェアを同時に共同サービスできます"
-    },
-    "ecosystem": {
-      "title": "豊富なエコシステム",
-      "description": "Langchain、Dify、Ragflow、FastGPTなど、複数の主流開発フレームワークがXinferenceをネイティブサポートしています"
-    },
-    "engines": {
-      "title": "マルチ推論エンジンサポート",
-      "description": "vLLM、SGLang、TensorRT、Transformers、MLX、LMDeployなど、複数の主流推論エンジンを最適化サポートします"
+      "title": "幅広いコンピューティングパワーサポート",
+      "description": "国内外の主要なコンピューティングパワーチップに完全対応：NVIDIA、Ascend、Intel、Cambricon、Hygonなどの異種ハードウェア。"
     },
     "performance": {
-      "title": "高性能推論",
-      "description": "ネイティブ分散アーキテクチャ、クラスターの水平拡張が容易、低遅延・高コンテキスト・高スループットなど異なるシナリオに適応する複数のスケジューリング戦略をサポートします"
+      "title": "エンタープライズレベルの分散展開",
+      "description": "自社開発のXoscar高性能分散コンピューティング基盤に基づき、20万コア規模の安定運用をサポートし、自動負荷分散と障害回復機能を備えています。"
+    },
+    "models": {
+      "title": "包括的なモデルリポジトリ",
+      "description": "deepseek、Qwen3、InternVLなどの主流モデルを含む100以上の最新モデルを統合し、音声、マルチモーダルなど様々なモデルタイプをサポートします。"
     },
     "enterprise": {
-      "title": "企業級機能",
-      "description": "ユーザー権限管理、シングルサインオン、バッチ処理、マルチテナント分離、モデルファインチューニング、観測可能性など、多数の企業級機能をサポートします"
+      "title": "エンタープライズレベルの管理機能",
+      "description": "ファインチューニングサポート、権限管理、監視システム、バッチ処理などのエンタープライズレベルの機能を提供し、金融、医療などの専門分野のニーズに対応します。"
+    },
+    "concurrency": {
+      "title": "高同時実行最適化",
+      "description": "エンタープライズの高同時実行シナリオ向けに最適化され、構造化出力をサポートし、メモリ最適化とパフォーマンスアクセラレーションを提供し、ビジネスの継続性と安定性を保証します。"
     }
   },
   "openSource": {

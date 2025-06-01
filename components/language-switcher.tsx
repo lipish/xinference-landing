@@ -4,6 +4,7 @@ import { useLocale } from "next-intl";
 import { useState, useRef, useEffect } from "react";
 
 const locales = [
+  { code: "en", name: "English", flag: "🇺🇸" },
   { code: "zh", name: "简体中文", flag: "🇨🇳" },
   { code: "ja", name: "日本語", flag: "🇯🇵" },
   { code: "ko", name: "한국어", flag: "🇰🇷" },

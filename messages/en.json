@@ -3,7 +3,7 @@
     "title": "Xinference",
     "nav": {
       "features": "Features",
-      "models": "Models",
+      "pricing": "Pricing",
       "docs": "Documentation",
       "contact": "Contact Us"
     },
@@ -14,35 +14,39 @@
     }
   },
   "hero": {
-    "title": "Xinference: Unified AI Inference.",
+    "title": "Unified AI Inference",
     "subtitle": "Any Model, Any Hardware, Peak Performance.",
     "description": "Effortlessly deploy, manage, and scale LLMs, multimodal, and speech models with our enterprise-grade, full-stack inference platform. Your infrastructure, your models, optimized.",
     "features": "Model lifecycle management, multiple inference engines, heterogeneous GPUs, high throughput and availability, efficient scheduling"
   },
   "features": {
-    "models": {
-      "title": "Rich Model Support",
-      "description": "100+ latest open-source models from text, speech and video to embedding/rerank models, with fastest adaptation."
+    "engines": {
+      "title": "Multiple Inference Engines",
+      "description": "Optimized support for multiple mainstream inference engines, including vLLM, SGLang, TensorRT, Transformers, MLX, LMDeploy, etc."
     },
     "hardware": {
       "title": "Wide Hardware Support",
       "description": "Support for multiple hardware platforms, including domestic GPUs like Huawei Ascend, Hygon, and Tianshu. Can support multiple types of hardware serving together."
     },
-    "ecosystem": {
-      "title": "Rich Ecosystem",
-      "description": "Multiple mainstream development frameworks natively support Xinference, including Langchain, Dify, Ragflow, FastGPT, etc."
-    },
-    "engines": {
-      "title": "Multiple Inference Engines",
-      "description": "Optimized support for multiple mainstream inference engines, including vLLM, SGLang, TensorRT, Transformers, MLX, LMDeploy, etc."
-    },
     "performance": {
-      "title": "High Performance Inference",
-      "description": "Native distributed architecture, easily horizontally scalable clusters, support for multiple scheduling strategies adapted to low latency, high context, high throughput and other scenarios."
+      "title": "Enterprise Distributed Deployment",
+      "description": "Based on the self-developed Xoscar high-performance distributed computing foundation, it supports stable operation at a scale of 200,000 cores and features automatic load balancing and fault recovery capabilities."
+    },
+    "models": {
+      "title": "Rich Model Support",
+      "description": "100+ latest open-source models from text, speech and video to embedding/rerank models, with fastest adaptation."
     },
     "enterprise": {
       "title": "Enterprise Features",
       "description": "User management, SSO, batch processing, multi-tenant isolation, model fine-tuning, observability, and many more enterprise-grade features."
+    },
+    "ecosystem": {
+      "title": "Rich Ecosystem",
+      "description": "Seamlessly integrate with popular AI frameworks and tools. Compatible with OpenAI API, LangChain, and other mainstream AI development ecosystems."
+    },
+    "concurrency": {
+      "title": "High Concurrency Optimization",
+      "description": "Optimized for enterprise high-concurrency scenarios, supports structured output, provides memory optimization and performance acceleration, ensuring business continuity and stability."
     }
   },
   "openSource": {

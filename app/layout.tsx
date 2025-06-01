@@ -22,7 +22,12 @@ export const metadata: Metadata = {
     title: 'Xinference - 最全面的企业级推理服务平台',
     description: '针对生成式 AI 场景度身定制的能力全面的推理服务平台',
   },
-  viewport: 'width=device-width, initial-scale=1',
+  // viewport: 'width=device-width, initial-scale=1', // Removed from here
+}
+
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
 }
 
 export default function RootLayout({
@@ -31,8 +36,10 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="zh">
-      <body className="min-h-screen antialiased">{children}</body>
+    <html>
+      <body>
+        {children}
+      </body>
     </html>
-  )
+  );
 }
