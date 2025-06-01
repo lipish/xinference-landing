@@ -1,0 +1,67 @@
+{
+  "header": {
+    "title": "Xinference",
+    "nav": {
+      "features": "功能特性",
+      "models": "模型",
+      "docs": "文檔",
+      "contact": "聯繫我們"
+    },
+    "cta": {
+      "enterprise": "企業版諮詢",
+      "compare": "產品對比",
+      "partner": "合作夥伴申請"
+    }
+  },
+  "hero": {
+    "title": "Xinference：統一AI推理平台",
+    "subtitle": "任意模型，任意硬件，卓越性能",
+    "description": "輕鬆部署、管理和擴展LLM、多模態和語音模型，使用我們的企業級全棧推理平台。您的基礎架構，您的模型，已優化。",
+    "features": "模型全生命週期管理、多推理引擎、異構 GPU、高吞吐和高可用、高效調度策略",
+    "openSource": {
+      "title": "開源與免費使用",
+      "description": "Xinference 是一個開源項目，可以免費使用並根據需要進行定制和擴展"
+    },
+    "github": {
+      "star": "在 GitHub 上加星標"
+    }
+  },
+  "features": {
+    "models": {
+      "title": "支持的模型豐富",
+      "description": "提供100+最新開源模型，從文本語音視頻到 embedding/rerank 模型，始終保持最快適配。"
+    },
+    "hardware": {
+      "title": "廣泛的硬體支持",
+      "description": "支持多種硬體平台，支持國產 GPU，包括華為昇騰、海光、天數等。可同時支持多種硬體共同服務"
+    },
+    "ecosystem": {
+      "title": "生態豐富",
+      "description": "多種主流開發框架已經原生支持 Xinference，包括 Langchain、Dify、Ragflow、FastGPT 等"
+    },
+    "engines": {
+      "title": "多推理引擎支持",
+      "description": "優化支持多種主流推理引擎，包括 vLLM、SGLang、TensorRT、Transformers、MLX、LMDeploy 等"
+    },
+    "performance": {
+      "title": "高性能推理",
+      "description": "原生分佈式架構，可輕鬆水平擴展集群，支持多種調度策略適應低延遲、高上下文、高吞吐等不同場景"
+    },
+    "enterprise": {
+      "title": "企業級特性",
+      "description": "支持用戶權限管理、單點登錄、批處理、多租戶隔離、模型微調、可觀測等眾多企業級特性"
+    }
+  },
+  "openSource": {
+    "title": "開源與免費使用",
+    "description": "Xinference 是一個開源項目，可以免費使用並根據需要進行定制和擴展"
+  },
+  "github": {
+    "star": "在 GitHub 上加星標"
+  },
+  "footer": {
+    "copyright": "版權所有 © 2024 杭州未來速度科技有限公司",
+    "icp": "浙ICP备2022033013号",
+    "security": "浙公网安备：33011002016954"
+  }
+}

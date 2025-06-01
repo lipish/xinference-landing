@@ -1,0 +1,67 @@
+{
+  "header": {
+    "title": "Xinference",
+    "nav": {
+      "features": "기능",
+      "models": "모델",
+      "docs": "문서",
+      "contact": "문의하기"
+    },
+    "cta": {
+      "enterprise": "엔터프라이즈 버전 상담",
+      "compare": "제품 비교",
+      "partner": "파트너 신청"
+    }
+  },
+  "hero": {
+    "title": "Xinference: 통합 AI 추론",
+    "subtitle": "모든 모델, 모든 하드웨어, 최고 성능",
+    "description": "엔터프라이즈급 풀스택 추론 플랫폼으로 LLM, 멀티모달, 음성 모델을 쉽게 배포, 관리 및 확장하세요. 당신의 인프라, 당신의 모델, 최적화.",
+    "features": "모델 전체 라이프사이클 관리, 다중 추론 엔진, 이기종 GPU, 고처리량 및 고가용성, 효율적인 스케줄링 전략",
+    "openSource": {
+      "title": "오픈소스 및 무료 사용",
+      "description": "Xinference는 오픈소스 프로젝트로, 무료로 사용, 맞춤화 및 확장이 가능합니다"
+    },
+    "github": {
+      "star": "GitHub에서 스타 주기"
+    }
+  },
+  "features": {
+    "models": {
+      "title": "풍부한 모델 지원",
+      "description": "100개 이상의 최신 오픈소스 모델 제공, 텍스트·음성·비디오부터 embedding/rerank 모델까지 항상 가장 빠른 적응을 유지합니다."
+    },
+    "hardware": {
+      "title": "광범위한 하드웨어 지원",
+      "description": "다양한 하드웨어 플랫폼 지원, Huawei Ascend, Hygon, Tianshu 등 국산 GPU 포함. 여러 하드웨어가 동시에 공동 서비스 가능합니다"
+    },
+    "ecosystem": {
+      "title": "풍부한 생태계",
+      "description": "Langchain, Dify, Ragflow, FastGPT 등 여러 주류 개발 프레임워크가 이미 Xinference를 네이티브 지원합니다"
+    },
+    "engines": {
+      "title": "다중 추론 엔진 지원",
+      "description": "vLLM, SGLang, TensorRT, Transformers, MLX, LMDeploy 등 여러 주류 추론 엔진을 최적화 지원합니다"
+    },
+    "performance": {
+      "title": "고성능 추론",
+      "description": "네이티브 분산 아키텍처로 클러스터 수평 확장이 용이하며, 저지연, 고컨텍스트, 고처리량 등 다양한 시나리오에 적응하는 여러 스케줄링 전략을 지원합니다"
+    },
+    "enterprise": {
+      "title": "엔터프라이즈급 기능",
+      "description": "사용자 권한 관리, 단일 로그인, 배치 처리, 멀티 테넌트 격리, 모델 파인튜닝, 관찰 가능성 등 수많은 엔터프라이즈급 기능을 지원합니다"
+    }
+  },
+  "openSource": {
+    "title": "오픈소스 및 무료 사용",
+    "description": "Xinference는 오픈소스 프로젝트로, 무료로 사용, 맞춤화 및 확장이 가능합니다"
+  },
+  "github": {
+    "star": "GitHub에서 스타 주기"
+  },
+  "footer": {
+    "copyright": "저작권 © 2024 항저우 미래속도과기유한공사",
+    "icp": "浙ICP备2022033013号",
+    "security": "浙公网安备：33011002016954"
+  }
+}
