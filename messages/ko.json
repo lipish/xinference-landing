@@ -3,7 +3,7 @@
     "title": "Xinference",
     "nav": {
       "features": "기능",
-      "models": "모델",
+      "pricing": "가격",
       "docs": "문서",
       "contact": "문의하기"
     },
@@ -14,10 +14,51 @@
     }
   },
   "hero": {
-    "title": "Xinference: 통합 AI 추론",
+    "title": {
+      "line1": "AI 모델 배포",
+      "line2": "빠르고 원활하게",
+      "line3": "엔터프라이즈 준비"
+    },
     "subtitle": "모든 모델, 모든 하드웨어, 최고 성능",
     "description": "엔터프라이즈급 풀스택 추론 플랫폼으로 LLM, 멀티모달, 음성 모델을 쉽게 배포, 관리 및 확장하세요. 당신의 인프라, 당신의 모델, 최적화.",
     "features": "모델 전체 라이프사이클 관리, 다중 추론 엔진, 이기종 GPU, 고처리량 및 고가용성, 효율적인 스케줄링 전략",
+    "cta": {
+      "trial": "체험 신청",
+      "demo": "데모 보기"
+    },
+    "dashboard": {
+      "webDevelopment": {
+        "title": "웹 개발",
+        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Omnis tempore perferendis explicabo."
+      },
+      "digitalMarketing": {
+        "title": "디지털 마케팅",
+        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Omnis tempore perferendis explicabo."
+      },
+      "saasProducts": {
+        "title": "SaaS 제품",
+        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Omnis tempore perferendis explicabo."
+      },
+      "appsDevelopment": {
+        "title": "앱 개발",
+        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Omnis tempore perferendis explicabo."
+      },
+      "seoServices": {
+        "title": "SEO 서비스",
+        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Omnis tempore perferendis explicabo."
+      },
+      "dataAnalysis": {
+        "title": "데이터 분석",
+        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Omnis tempore perferendis explicabo."
+      },
+      "readMore": "더 읽기"
+    },
+    "tags": {
+      "performance": "고성능",
+      "easyDeploy": "쉬운 배포",
+      "monitoring": "모니터링 가능",
+      "secure": "안전하고 신뢰할 수 있는"
+    },
     "openSource": {
       "title": "오픈소스 및 무료 사용",
       "description": "Xinference는 오픈소스 프로젝트로, 무료로 사용, 맞춤화 및 확장이 가능합니다"
@@ -27,6 +68,11 @@
     }
   },
   "features": {
+    "section": {
+      "badge": "Xinference 핵심 우위",
+      "title": "엔터프라이즈급 AI 배포를 위해 설계된 풀스택 플랫폼, 대규모 구현 문제 해결",
+      "description": "애플리케이션에 강력한 AI 기능 지원을 제공하는 포괄적인 AI 추론 서비스 솔루션"
+    },
     "engines": {
       "title": "다중 엔진 동시 추론",
       "description": "vLLM, SGLang, Transformer, MLX 등 엔진을 동시에 시작하여 기업에 대규모 다중 특성 추론 서비스를 제공합니다."
@@ -50,6 +96,11 @@
     "concurrency": {
       "title": "고성능 동시성 최적화",
       "description": "엔터프라이즈 고성능 동시성 시나리오에 최적화되어 구조화된 출력을 지원하고 메모리 최적화 및 성능 가속화를 제공하여 비즈니스 연속성과 안정성을 보장합니다."
+    },
+    "cta": {
+      "title": "AI 여정을 시작할 준비가 되셨나요?",
+      "description": "지금 Xinference의 강력한 AI 추론 기능을 경험해보세요",
+      "button": "지금 시작하기"
     }
   },
   "openSource": {

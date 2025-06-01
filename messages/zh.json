@@ -14,10 +14,56 @@
     }
   },
   "hero": {
-    "title": "企业级大模型部署和管理的一站式平台",
+    "title": {
+      "line1": "部署AI模型",
+      "line2": "快速且无缝",
+      "line3": "企业级就绪"
+    },
     "subtitle": "任意模型，任意硬件，卓越性能",
     "description": "Xinference 提供强大的异构多模型推理能力，支持企业高效部署和管理AI大模型，赋能业务创新",
     "features": "模型全生命周期管理、多推理引擎、异构 GPU、高吞吐和高可用、高效调度策略",
+    "cta": {
+      "trial": "申请试用",
+      "demo": "观看演示"
+    },
+    "stats": {
+      "githubStars": "GitHub Stars",
+      "globalDeployments": "全球部署",
+      "enterpriseUsers": "商业用户"
+    },
+    "dashboard": {
+      "webDevelopment": {
+        "title": "Web开发",
+        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Omnis tempore perferendis explicabo."
+      },
+      "digitalMarketing": {
+        "title": "数字营销",
+        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Omnis tempore perferendis explicabo."
+      },
+      "saasProducts": {
+        "title": "SaaS产品",
+        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Omnis tempore perferendis explicabo."
+      },
+      "appsDevelopment": {
+        "title": "应用开发",
+        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Omnis tempore perferendis explicabo."
+      },
+      "seoServices": {
+        "title": "SEO服务",
+        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Omnis tempore perferendis explicabo."
+      },
+      "dataAnalysis": {
+        "title": "数据分析",
+        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Omnis tempore perferendis explicabo."
+      },
+      "readMore": "阅读更多"
+    },
+    "tags": {
+      "performance": "高性能",
+      "easyDeploy": "易部署",
+      "monitoring": "可监控",
+      "secure": "安全可靠"
+    },
     "openSource": {
       "title": "开源与免费使用",
       "description": "Xinference 是一个开源项目，可以免费使用并根据需要进行定制和扩展"
@@ -27,6 +73,11 @@
     }
   },
   "features": {
+    "section": {
+      "badge": "Xinference 核心优势",
+      "title": "Enterprise-grade AI deployment platform\ndesigned to solve large-scale implementation\nchallenges",
+      "description": "Comprehensive AI inference service solution providing powerful AI capability\nsupport for your applications"
+    },
     "engines": {
       "title": "多引擎同时推理",
       "description": "支持 vLLM、SGLang、Transformer、MLX 等引擎同时启动，为企业大规模提供多特性推理服务。"
@@ -47,13 +98,14 @@
       "title": "企业级管理功能",
       "description": "提供微调支持、权限管理、监控系统、批处理等企业级功能，满足金融、医疗等专业领域需求。"
     },
-    "ecosystem": {
-      "title": "丰富的生态系统",
-      "description": "无缝集成主流AI框架和工具，兼容OpenAI API、LangChain等主流AI开发生态系统。"
-    },
     "concurrency": {
       "title": "高并发优化",
       "description": "针对企业高并发场景优化，支持结构化输出，提供内存优化和性能加速，保障业务连续性和稳定性。"
+    },
+    "cta": {
+      "title": "准备开始您的AI之旅？",
+      "description": "立即体验Xinference强大的AI推理能力",
+      "button": "立即开始"
     }
   },
   "openSource": {

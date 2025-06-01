@@ -4,43 +4,43 @@ import { useTranslations } from "next-intl";
 
 const features = [
   {
-    key: "models",
-    icon: "🤖",
+    key: "engines",
+    icon: "💻",
     gradient: "from-brand-purple to-brand-light-purple",
     glowClass: "glow-brand",
     borderColor: "border-brand-purple/20"
   },
   {
     key: "hardware", 
-    icon: "🔧",
+    icon: "⚙️",
     gradient: "from-brand-pink to-brand-orange",
     glowClass: "glow-warm",
     borderColor: "border-brand-pink/20"
   },
   {
-    key: "ecosystem",
-    icon: "🌐", 
+    key: "performance",
+    icon: "🚀", 
     gradient: "from-brand-orange to-brand-pink",
     glowClass: "glow-warm",
     borderColor: "border-brand-orange/20"
   },
   {
-    key: "engines",
-    icon: "⚡",
+    key: "models",
+    icon: "📦",
     gradient: "from-brand-light-purple to-brand-purple",
     glowClass: "glow-accent",
     borderColor: "border-brand-light-purple/20"
   },
   {
-    key: "performance",
-    icon: "🚀",
+    key: "enterprise",
+    icon: "🏢",
     gradient: "from-brand-purple to-brand-pink",
     glowClass: "glow-brand",
     borderColor: "border-brand-purple/20"
   },
   {
-    key: "enterprise",
-    icon: "🏢",
+    key: "concurrency",
+    icon: "📈",
     gradient: "from-brand-orange to-brand-light-purple",
     glowClass: "glow-accent",
     borderColor: "border-brand-orange/20"
@@ -51,7 +51,7 @@ export function FeaturesSection() {
   const t = useTranslations("features");
 
   return (
-    <section id="features" className="py-32 bg-dark-bg relative overflow-hidden">
+    <section id="features" className="pt-16 pb-32 bg-gradient-to-b from-dark-bg to-dark-bg/95 relative overflow-hidden">
       {/* 背景装饰 */}
       <div className="absolute inset-0 bg-dots opacity-30"></div>
       <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-gradient-to-br from-brand-purple/20 to-brand-light-purple/10 rounded-full filter blur-3xl opacity-40"></div>
@@ -62,14 +62,14 @@ export function FeaturesSection() {
         <div className="text-center mb-20">
           <div className="inline-block mb-4">
             <span className="text-brand-light-purple text-sm font-semibold uppercase tracking-wider bg-brand-purple/10 px-4 py-2 rounded-full border border-brand-purple/20">
-              核心特性
+              {t("section.badge")}
             </span>
           </div>
           <h2 className="text-4xl sm:text-6xl font-bold mb-6 gradient-text-brand">
-            Unleash You Dev Power With A Precision
+            {t("section.title")}
           </h2>
           <p className="text-xl text-text-secondary max-w-3xl mx-auto leading-relaxed">
-            全方位的AI推理服务解决方案，为您的应用提供强大的AI能力支持
+            {t("section.description")}
           </p>
         </div>
         
@@ -78,7 +78,7 @@ export function FeaturesSection() {
           {features.map((feature, index) => (
             <div 
               key={feature.key} 
-              className={`group glass-card rounded-3xl p-8 ${feature.borderColor} transition-all duration-500 hover:scale-105 animate-on-scroll`}
+              className="group bg-dark-card rounded-3xl p-8 transition-all duration-500 hover:scale-105 hover:shadow-2xl"
               style={{ animationDelay: `${index * 150}ms` }}
             >
               <div className="relative">
@@ -106,15 +106,15 @@ export function FeaturesSection() {
         
         {/* 底部CTA */}
         <div className="text-center mt-20">
-          <div className="glass-card rounded-2xl p-8 max-w-2xl mx-auto">
+          <div className="bg-dark-card rounded-2xl p-8 max-w-2xl mx-auto shadow-xl">
             <h3 className="text-2xl font-bold gradient-text-warm mb-4">
-              准备开始您的AI之旅？
+              {t("cta.title")}
             </h3>
             <p className="text-text-secondary mb-6">
-              立即体验Xinference强大的AI推理能力
+              {t("cta.description")}
             </p>
             <button className="btn-brand px-8 py-3 rounded-full font-semibold">
-              立即开始
+              {t("cta.button")}
             </button>
           </div>
         </div>

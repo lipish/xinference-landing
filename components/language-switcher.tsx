@@ -2,6 +2,7 @@
 
 import { useLocale } from "next-intl";
 import { useState, useRef, useEffect } from "react";
+import { useRouter, usePathname } from "next/navigation";
 
 const locales = [
   { code: "en", name: "English", flag: "🇺🇸" },
@@ -17,10 +18,20 @@ interface LanguageSwitcherProps {
 
 export function LanguageSwitcher({ variant = 'light' }: LanguageSwitcherProps) {
   const locale = useLocale();
+  const router = useRouter();
+  const pathname = usePathname();
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
 
   const currentLocale = locales.find(loc => loc.code === locale) || locales[0];
+
+  const handleLocaleChange = (newLocale: string) => {
+    const segments = pathname.split('/');
+    segments[1] = newLocale;
+    const newPath = segments.join('/');
+    router.push(newPath);
+    setIsOpen(false);
+  };
 
   useEffect(() => {
     function handleClickOutside(event: MouseEvent) {
@@ -69,9 +80,9 @@ export function LanguageSwitcher({ variant = 'light' }: LanguageSwitcherProps) {
         >
           <div className="py-1" role="menu" aria-orientation="vertical">
             {locales.map((loc) => (
-              <a
+              <button
                 key={loc.code}
-                href={`/${loc.code}`}
+                onClick={() => handleLocaleChange(loc.code)}
                 className={`block w-full text-left px-4 py-3 text-sm transition-colors
                   ${variant === 'light'
                     ? locale === loc.code 
@@ -81,12 +92,11 @@ export function LanguageSwitcher({ variant = 'light' }: LanguageSwitcherProps) {
                       ? 'text-[#0078E7] bg-[#0078E7]/10 font-medium'
                       : 'text-gray-200 hover:bg-gray-700 hover:text-white'
                   }`}
-                onClick={() => setIsOpen(false)}
                 role="menuitem"
               >
                 <span className="mr-3 text-lg">{loc.flag}</span>
                 {loc.name}
-              </a>
+              </button>
             ))}
           </div>
         </div>

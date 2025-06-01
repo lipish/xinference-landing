@@ -3,7 +3,7 @@
     "title": "Xinference",
     "nav": {
       "features": "機能",
-      "models": "モデル",
+      "pricing": "料金",
       "docs": "ドキュメント",
       "contact": "お問い合わせ"
     },
@@ -14,10 +14,51 @@
     }
   },
   "hero": {
-    "title": "Xinference：統合AIインファレンス",
+    "title": {
+      "line1": "AIモデルをデプロイ",
+      "line2": "高速でシームレス",
+      "line3": "エンタープライズ対応"
+    },
     "subtitle": "あらゆるモデル、あらゆるハードウェア、最高のパフォーマンス",
     "description": "エンタープライズグレードのフルスタック推論プラットフォームで、LLM、マルチモーダル、音声モデルを簡単に展開、管理、スケーリングできます。あなたのインフラ、あなたのモデル、最適化されています。",
     "features": "モデル全ライフサイクル管理、マルチ推論エンジン、異種GPU、高スループットと高可用性、効率的なスケジューリング戦略",
+    "cta": {
+      "trial": "トライアル申請",
+      "demo": "デモを見る"
+    },
+    "dashboard": {
+      "webDevelopment": {
+        "title": "Web開発",
+        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Omnis tempore perferendis explicabo."
+      },
+      "digitalMarketing": {
+        "title": "デジタルマーケティング",
+        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Omnis tempore perferendis explicabo."
+      },
+      "saasProducts": {
+        "title": "SaaS製品",
+        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Omnis tempore perferendis explicabo."
+      },
+      "appsDevelopment": {
+        "title": "アプリ開発",
+        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Omnis tempore perferendis explicabo."
+      },
+      "seoServices": {
+        "title": "SEOサービス",
+        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Omnis tempore perferendis explicabo."
+      },
+      "dataAnalysis": {
+        "title": "データ分析",
+        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Omnis tempore perferendis explicabo."
+      },
+      "readMore": "詳細を読む"
+    },
+    "tags": {
+      "performance": "高性能",
+      "easyDeploy": "簡単デプロイ",
+      "monitoring": "監視可能",
+      "secure": "安全で信頼性"
+    },
     "openSource": {
       "title": "オープンソースと無料利用",
       "description": "Xinferenceはオープンソースプロジェクトで、無料で使用、カスタマイズ、拡張できます"
@@ -27,6 +68,11 @@
     }
   },
   "features": {
+    "section": {
+      "badge": "Xinference コアアドバンテージ",
+      "title": "エンタープライズレベルAI展開のために設計されたフルスタックプラットフォーム、大規模実装の課題を解決",
+      "description": "包括的なAI推論サービスソリューションで、アプリケーションに強力なAI機能サポートを提供"
+    },
     "engines": {
       "title": "マルチエンジン同時推論",
       "description": "vLLM、SGLang、Transformer、MLXなどのエンジンを同時に起動し、企業向けに大規模なマルチ特性推論サービスを提供します。"
@@ -50,6 +96,11 @@
     "concurrency": {
       "title": "高同時実行最適化",
       "description": "エンタープライズの高同時実行シナリオ向けに最適化され、構造化出力をサポートし、メモリ最適化とパフォーマンスアクセラレーションを提供し、ビジネスの継続性と安定性を保証します。"
+    },
+    "cta": {
+      "title": "AIの旅を始める準備はできましたか？",
+      "description": "Xinferenceの強力なAI推論能力を今すぐ体験",
+      "button": "今すぐ開始"
     }
   },
   "openSource": {

@@ -3,7 +3,7 @@
     "title": "Xinference",
     "nav": {
       "features": "功能特性",
-      "models": "模型",
+      "pricing": "價格",
       "docs": "文檔",
       "contact": "聯繫我們"
     },
@@ -14,10 +14,51 @@
     }
   },
   "hero": {
-    "title": "Xinference：統一AI推理平台",
-    "subtitle": "任意模型，任意硬件，卓越性能",
-    "description": "輕鬆部署、管理和擴展LLM、多模態和語音模型，使用我們的企業級全棧推理平台。您的基礎架構，您的模型，已優化。",
+    "title": {
+      "line1": "部署AI模型",
+      "line2": "快速且無縫",
+      "line3": "企業級就緒"
+    },
+    "subtitle": "任意模型，任意硬體，卓越性能",
+    "description": "Xinference 提供強大的異構多模型推理能力，支持企業高效部署和管理AI大模型，賦能業務創新",
     "features": "模型全生命週期管理、多推理引擎、異構 GPU、高吞吐和高可用、高效調度策略",
+    "cta": {
+      "trial": "申請試用",
+      "demo": "觀看演示"
+    },
+    "dashboard": {
+      "webDevelopment": {
+        "title": "Web開發",
+        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Omnis tempore perferendis explicabo."
+      },
+      "digitalMarketing": {
+        "title": "數位行銷",
+        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Omnis tempore perferendis explicabo."
+      },
+      "saasProducts": {
+        "title": "SaaS產品",
+        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Omnis tempore perferendis explicabo."
+      },
+      "appsDevelopment": {
+        "title": "應用程式開發",
+        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Omnis tempore perferendis explicabo."
+      },
+      "seoServices": {
+        "title": "SEO服務",
+        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Omnis tempore perferendis explicabo."
+      },
+      "dataAnalysis": {
+        "title": "數據分析",
+        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Omnis tempore perferendis explicabo."
+      },
+      "readMore": "閱讀更多"
+    },
+    "tags": {
+      "performance": "高性能",
+      "easyDeploy": "易部署",
+      "monitoring": "可監控",
+      "secure": "安全可靠"
+    },
     "openSource": {
       "title": "開源與免費使用",
       "description": "Xinference 是一個開源項目，可以免費使用並根據需要進行定制和擴展"
@@ -27,34 +68,40 @@
     }
   },
   "features": {
+    "section": {
+      "badge": "Xinference 核心優勢",
+      "title": "專為企業級AI部署設計的全棧平台，解決大規模落地難題",
+      "description": "全方位的AI推理服務解決方案，為您的應用提供強大的AI能力支持"
+    },
     "engines": {
       "title": "多引擎同時推理",
-      "description": "支援 vLLM、SGLang、Transformer、MLX 等引擎同時啟動，為企業大規模提供多特性推理服務。"
+      "description": "支持 vLLM、SGLang、Transformer、MLX 等引擎同時啟動，為企業大規模提供多特性推理服務。"
     },
     "hardware": {
-      "title": "廣泛的算力支援",
+      "title": "廣泛的算力支持",
       "description": "全面適配國內外主流算力晶片：NVIDIA、Ascend、Intel、Cambricon、Hygon 等異構硬體。"
     },
     "performance": {
       "title": "企業級分散式部署",
-      "description": "基於自研 Xoscar 高效能分散式運算底座，支援20萬核規模穩定運行，具備自動負載均衡和故障恢復能力。"
+      "description": "基於自研 Xoscar 高性能分散式計算底座，支持20萬核級規模穩定運營，具備自動負載均衡和故障恢復能力。"
     },
     "models": {
       "title": "全面的模型倉庫",
-      "description": "整合100+最新模型，包括 deepseek、Qwen3、InternVL 等主流模型，支援語音、多模態等多種模型類型。"
+      "description": "集成100+最新模型，包括 deepseek、Qwen3、InternVL 等主流模型，支持語音、多模態等多種模型類型。"
     },
     "enterprise": {
       "title": "企業級管理功能",
-      "description": "提供調優支援、權限管理、監控系統、批次處理等企業級功能，滿足金融、醫療等專業領域需求。"
+      "description": "提供微調支持、權限管理、監控系統、批處理等企業級功能，滿足金融、醫療等專業領域需求。"
     },
     "concurrency": {
-      "title": "高併發優化",
-      "description": "針對企業高併發場景優化，支援結構化輸出，提供記憶體優化和效能加速，保障業務連續性和穩定性。"
+      "title": "高並發優化",
+      "description": "針對企業高並發場景優化，支持結構化輸出，提供內存優化和性能加速，保障業務連續性和穩定性。"
+    },
+    "cta": {
+      "title": "準備開始您的AI之旅嗎？",
+      "description": "立即體驗Xinference的強大AI推理能力",
+      "button": "立即開始"
     }
-  },
-  "openSource": {
-    "title": "開源與免費使用",
-    "description": "Xinference 是一個開源項目，可以免費使用並根據需要進行定制和擴展"
   },
   "github": {
     "star": "在 GitHub 上加星標"

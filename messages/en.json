@@ -14,39 +14,91 @@
     }
   },
   "hero": {
-    "title": "Unified AI Inference",
+    "title": {
+      "line1": "Deploy AI Models",
+      "line2": "Fast And Seamless",
+      "line3": "Enterprise Ready"
+    },
     "subtitle": "Any Model, Any Hardware, Peak Performance.",
     "description": "Effortlessly deploy, manage, and scale LLMs, multimodal, and speech models with our enterprise-grade, full-stack inference platform. Your infrastructure, your models, optimized.",
-    "features": "Model lifecycle management, multiple inference engines, heterogeneous GPUs, high throughput and availability, efficient scheduling"
+    "features": "Model lifecycle management, multiple inference engines, heterogeneous GPUs, high throughput and availability, efficient scheduling",
+    "cta": {
+      "trial": "Request Trial",
+      "demo": "Watch Demo"
+    },
+    "stats": {
+      "githubStars": "GitHub Stars",
+      "globalDeployments": "Global Deployments",
+      "enterpriseUsers": "Enterprise Users"
+    },
+    "dashboard": {
+      "webDevelopment": {
+        "title": "Web Development",
+        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Omnis tempore perferendis explicabo."
+      },
+      "digitalMarketing": {
+        "title": "Digital Marketing",
+        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Omnis tempore perferendis explicabo."
+      },
+      "saasProducts": {
+        "title": "SaaS Products",
+        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Omnis tempore perferendis explicabo."
+      },
+      "appsDevelopment": {
+        "title": "Apps Development",
+        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Omnis tempore perferendis explicabo."
+      },
+      "seoServices": {
+        "title": "SEO Services",
+        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Omnis tempore perferendis explicabo."
+      },
+      "dataAnalysis": {
+        "title": "Data Analysis",
+        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Omnis tempore perferendis explicabo."
+      },
+      "readMore": "Read More"
+    },
+    "tags": {
+      "performance": "High Performance",
+      "easyDeploy": "Easy Deploy",
+      "monitoring": "Monitorable",
+      "secure": "Secure & Reliable"
+    }
   },
   "features": {
+    "section": {
+      "badge": "Xinference Core Advantages",
+      "title": "Enterprise-grade AI deployment platform designed to solve large-scale implementation challenges",
+      "description": "Comprehensive AI inference service solution providing powerful AI capability support for your applications"
+    },
     "engines": {
-      "title": "Multiple Inference Engines",
-      "description": "Optimized support for multiple mainstream inference engines, including vLLM, SGLang, TensorRT, Transformers, MLX, LMDeploy, etc."
+      "title": "Multi-Engine Concurrent Inference",
+      "description": "Support vLLM, SGLang, Transformer, MLX and other engines to start simultaneously, providing large-scale multi-feature inference services for enterprises."
     },
     "hardware": {
-      "title": "Wide Hardware Support",
-      "description": "Support for multiple hardware platforms, including domestic GPUs like Huawei Ascend, Hygon, and Tianshu. Can support multiple types of hardware serving together."
+      "title": "Extensive Computing Power Support",
+      "description": "Comprehensive adaptation of mainstream computing chips at home and abroad: NVIDIA, Ascend, Intel, Cambricon, Hygon and other heterogeneous hardware."
     },
     "performance": {
-      "title": "Enterprise Distributed Deployment",
-      "description": "Based on the self-developed Xoscar high-performance distributed computing foundation, it supports stable operation at a scale of 200,000 cores and features automatic load balancing and fault recovery capabilities."
+      "title": "Enterprise-grade Distributed Deployment",
+      "description": "Based on self-developed Xoscar high-performance distributed computing foundation, supporting stable operation at 200,000-core scale with automatic load balancing and fault recovery capabilities."
     },
     "models": {
-      "title": "Rich Model Support",
-      "description": "100+ latest open-source models from text, speech and video to embedding/rerank models, with fastest adaptation."
+      "title": "Comprehensive Model Repository",
+      "description": "Integrating 100+ latest models, including mainstream models like deepseek, Qwen3, InternVL, supporting voice, multimodal and other model types."
     },
     "enterprise": {
-      "title": "Enterprise Features",
-      "description": "User management, SSO, batch processing, multi-tenant isolation, model fine-tuning, observability, and many more enterprise-grade features."
-    },
-    "ecosystem": {
-      "title": "Rich Ecosystem",
-      "description": "Seamlessly integrate with popular AI frameworks and tools. Compatible with OpenAI API, LangChain, and other mainstream AI development ecosystems."
+      "title": "Enterprise-grade Management Functions",
+      "description": "Providing fine-tuning support, permission management, monitoring systems, batch processing and other enterprise-grade functions to meet professional domain requirements in finance, healthcare, etc."
     },
     "concurrency": {
       "title": "High Concurrency Optimization",
       "description": "Optimized for enterprise high-concurrency scenarios, supports structured output, provides memory optimization and performance acceleration, ensuring business continuity and stability."
+    },
+    "cta": {
+      "title": "Ready to Start Your AI Journey?",
+      "description": "Experience the powerful AI inference capabilities of Xinference now",
+      "button": "Get Started"
     }
   },
   "openSource": {
