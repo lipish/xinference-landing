@@ -61,20 +61,20 @@ export function Footer() {
                   </div>
                   {/* QR Code Popup */}
                   {showLineQR && (
-                    <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 p-4 bg-white rounded-lg shadow-2xl border border-gray-200 z-50">
+                    <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 p-6 bg-white rounded-xl shadow-2xl border border-gray-200 z-50">
                       <div className="text-center">
                         <Image 
                           src="/images/line-qr.svg" 
                           alt="Line QR Code" 
-                          width={150} 
-                          height={150}
-                          className="mx-auto mb-2"
+                          width={240} 
+                          height={240}
+                          className="mx-auto mb-3"
                         />
-                        <p className="text-sm text-gray-600 font-medium">{t("links.line")}</p>
-                        <p className="text-xs text-gray-500 mt-1">QRコードをスキャン</p>
+                        <p className="text-base text-gray-700 font-medium">{t("links.line")}</p>
+                        <p className="text-sm text-gray-500 mt-2">QRコードをスキャン</p>
                       </div>
                       {/* Arrow */}
-                      <div className="absolute top-full left-1/2 transform -translate-x-1/2 w-0 h-0 border-l-8 border-r-8 border-t-8 border-l-transparent border-r-transparent border-t-white"></div>
+                      <div className="absolute top-full left-1/2 transform -translate-x-1/2 w-0 h-0 border-l-10 border-r-10 border-t-10 border-l-transparent border-r-transparent border-t-white"></div>
                     </div>
                   )}
                 </div>
