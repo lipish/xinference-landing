@@ -108,8 +108,61 @@
   "github": {
     "star": "Star on GitHub"
   },
+  "pricing": {
+    "title": "Choose Your Plan",
+    "subtitle": "Select the perfect plan for your AI deployment needs. From open source to enterprise-grade solutions.",
+    "popular": "Most Popular",
+    "plans": {
+      "opensource": {
+        "name": "Open Source",
+        "price": "Free",
+        "description": "Perfect for developers and small projects",
+        "features": {
+          "feature1": "Community support",
+          "feature2": "Basic model deployment",
+          "feature3": "Standard inference engines",
+          "feature4": "Documentation access",
+          "feature5": "GitHub repository access"
+        },
+        "cta": "Get Started"
+      },
+      "single": {
+        "name": "Single Machine",
+        "price": "$6,000",
+        "description": "Per machine, ideal for production workloads",
+        "features": {
+          "feature1": "Professional support",
+          "feature2": "Advanced model optimization",
+          "feature3": "Multiple inference engines",
+          "feature4": "Performance monitoring",
+          "feature5": "Security features",
+          "feature6": "Priority updates"
+        },
+        "cta": "Contact Sales"
+      },
+      "cluster": {
+        "name": "Cluster Edition",
+        "price": "$10,000",
+        "description": "Per machine, for enterprise-scale deployments",
+        "features": {
+          "feature1": "24/7 enterprise support",
+          "feature2": "Auto-scaling capabilities",
+          "feature3": "Load balancing",
+          "feature4": "High availability",
+          "feature5": "Advanced monitoring",
+          "feature6": "Custom integrations",
+          "feature7": "SLA guarantees"
+        },
+        "cta": "Contact Sales"
+      }
+    },
+    "contact": {
+      "description": "Need a custom solution? Our team is here to help.",
+      "cta": "Contact Us"
+    }
+  },
   "footer": {
-    "description": "The most comprehensive enterprise-grade inference service platform, providing high-performance and highly available solutions for generative AI scenarios.",
+    "description": "Xinference provides powerful heterogeneous multi-model inference capabilities, supporting enterprises to efficiently deploy and manage AI large models, empowering business innovation",
     "products": {
       "title": "Products",
       "features": "Features",
@@ -122,6 +175,11 @@
       "api": "API Reference",
       "community": "Community"
     },
-    "copyright": "Copyright © 2025 Xprobe Technology Co., Ltd."
+    "copyright": "© 2025 Xprobe Technology Co., Ltd. All rights reserved.",
+    "links": {
+      "github": "GitHub",
+      "twitter": "Twitter",
+      "discord": "Discord"
+    }
   }
 }

@@ -115,8 +115,61 @@
   "github": {
     "star": "GitHubでスターを付ける"
   },
+  "pricing": {
+    "title": "プランを選択",
+    "subtitle": "AIデプロイメントのニーズに最適なプランを選択してください。オープンソースからエンタープライズグレードのソリューションまで。",
+    "popular": "最も人気",
+    "plans": {
+      "opensource": {
+        "name": "オープンソース",
+        "price": "無料",
+        "description": "開発者と小規模プロジェクトに最適",
+        "features": {
+          "feature1": "コミュニティサポート",
+          "feature2": "基本的なモデルデプロイメント",
+          "feature3": "標準推論エンジン",
+          "feature4": "ドキュメントアクセス",
+          "feature5": "GitHubリポジトリアクセス"
+        },
+        "cta": "開始する"
+      },
+      "single": {
+        "name": "シングルマシン",
+        "price": "$6,000",
+        "description": "マシンあたり、本番ワークロードに最適",
+        "features": {
+          "feature1": "プロフェッショナルサポート",
+          "feature2": "高度なモデル最適化",
+          "feature3": "複数の推論エンジン",
+          "feature4": "パフォーマンス監視",
+          "feature5": "セキュリティ機能",
+          "feature6": "優先アップデート"
+        },
+        "cta": "営業に連絡"
+      },
+      "cluster": {
+        "name": "クラスターエディション",
+        "price": "$10,000",
+        "description": "マシンあたり、エンタープライズスケールデプロイメント用",
+        "features": {
+          "feature1": "24/7エンタープライズサポート",
+          "feature2": "自動スケーリング機能",
+          "feature3": "ロードバランシング",
+          "feature4": "高可用性",
+          "feature5": "高度な監視",
+          "feature6": "カスタム統合",
+          "feature7": "SLA保証"
+        },
+        "cta": "営業に連絡"
+      }
+    },
+    "contact": {
+      "description": "カスタムソリューションが必要ですか？私たちのチームがお手伝いします。",
+      "cta": "お問い合わせ"
+    }
+  },
   "footer": {
-    "description": "最も包括的なエンタープライズグレードの推論サービスプラットフォーム、生成AIシナリオに高性能で高可用性のソリューションを提供します。",
+    "description": "Xinferenceは強力な異種マルチモデル推論機能を提供し、企業がAI大規模モデルを効率的に展開・管理し、ビジネスイノベーションを促進することを支援します",
     "products": {
       "title": "製品",
       "features": "機能",
@@ -129,6 +182,11 @@
       "api": "APIリファレンス",
       "community": "コミュニティ"
     },
-    "copyright": "Copyright © 2025 Xprobe Technology Co., Ltd."
+    "copyright": "© 2025 Xprobe Technology Co., Ltd. 全著作権所有",
+    "links": {
+      "github": "GitHub",
+      "twitter": "Twitter",
+      "discord": "Discord"
+    }
   }
 }

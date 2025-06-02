@@ -112,12 +112,12 @@ export function FeaturesSection() {
                 </div>
                 
                 {/* 标题 */}
-                <h3 className="text-xl font-bold text-text-primary mb-3 group-hover:gradient-text-brand transition-all duration-300">
+                <h3 className="text-2xl font-bold text-text-primary mb-4 group-hover:gradient-text-brand transition-all duration-300">
                   {t(`${feature.key}.title`)}
                 </h3>
                 
                 {/* 描述 */}
-                <p className="text-text-secondary leading-relaxed text-base">
+                <p className="text-gray-400 leading-relaxed text-sm">
                   {t(`${feature.key}.description`)}
                 </p>
                 
@@ -137,7 +137,10 @@ export function FeaturesSection() {
             <p className="text-text-secondary mb-5">
               {t("cta.description")}
             </p>
-            <button className="btn-brand px-6 py-2.5 rounded-full font-semibold">
+            <button 
+              className="btn-brand px-6 py-2.5 rounded-full font-semibold"
+              onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLScQpR8WuKxFFMzWMNRQmO-AqueghbAaeG3F-4vzUqkXqTN6Qg/viewform?usp=dialog', '_blank')}
+            >
               {t("cta.button")}
             </button>
           </div>

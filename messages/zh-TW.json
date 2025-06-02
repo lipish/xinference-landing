@@ -111,20 +111,78 @@
   "github": {
     "star": "在 GitHub 上加星標"
   },
+  "pricing": {
+    "title": "選擇您的方案",
+    "subtitle": "為您的AI部署需求選擇完美的方案，從開源到企業級解決方案。",
+    "popular": "最受歡迎",
+    "plans": {
+      "opensource": {
+        "name": "開源版",
+        "price": "免費",
+        "description": "適合開發者和小型專案",
+        "features": {
+          "feature1": "社群支援",
+          "feature2": "基礎模型部署",
+          "feature3": "標準推理引擎",
+          "feature4": "文件存取",
+          "feature5": "GitHub儲存庫存取"
+        },
+        "cta": "立即開始"
+      },
+      "single": {
+        "name": "單機版",
+        "price": "$6,000",
+        "description": "每台機器，適合生產工作負載",
+        "features": {
+          "feature1": "專業技術支援",
+          "feature2": "進階模型優化",
+          "feature3": "多種推理引擎",
+          "feature4": "效能監控",
+          "feature5": "安全功能",
+          "feature6": "優先更新"
+        },
+        "cta": "聯絡銷售"
+      },
+      "cluster": {
+        "name": "叢集版",
+        "price": "$10,000",
+        "description": "每台機器，適合企業級規模部署",
+        "features": {
+          "feature1": "7x24企業級支援",
+          "feature2": "自動擴縮容",
+          "feature3": "負載平衡",
+          "feature4": "高可用性",
+          "feature5": "進階監控",
+          "feature6": "客製化整合",
+          "feature7": "SLA保障"
+        },
+        "cta": "聯絡銷售"
+      }
+    },
+    "contact": {
+      "description": "需要客製化解決方案？我們的團隊隨時為您提供協助。",
+      "cta": "聯絡我們"
+    }
+  },
   "footer": {
-    "description": "最全面的企業級推理服務平台，為生成式AI場景提供高性能、高可用的解決方案。",
+    "description": "Xinference 提供強大的異構多模型推論能力，支援企業高效部署和管理AI大模型，賦能業務創新",
     "products": {
       "title": "產品",
-      "features": "功能特性",
-      "pricing": "價格方案",
+      "features": "功能",
+      "pricing": "價格",
       "enterprise": "企業版"
     },
     "support": {
       "title": "支援",
-      "docs": "文檔",
+      "docs": "文件",
       "api": "API參考",
       "community": "社群"
     },
-    "copyright": "Copyright © 2025 Xprobe Technology Co., Ltd."
+    "copyright": "© 2025 Xprobe Technology Co., Ltd. 版權所有",
+    "links": {
+      "github": "GitHub",
+      "twitter": "Twitter",
+      "discord": "Discord"
+    }
   }
 }

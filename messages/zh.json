@@ -115,8 +115,61 @@
   "github": {
     "star": "在 GitHub 上加星标"
   },
+  "pricing": {
+    "title": "选择您的方案",
+    "subtitle": "为您的AI部署需求选择完美的方案，从开源到企业级解决方案。",
+    "popular": "最受欢迎",
+    "plans": {
+      "opensource": {
+        "name": "开源版",
+        "price": "免费",
+        "description": "适合开发者和小型项目",
+        "features": {
+          "feature1": "社区支持",
+          "feature2": "基础模型部署",
+          "feature3": "标准推理引擎",
+          "feature4": "文档访问",
+          "feature5": "GitHub仓库访问"
+        },
+        "cta": "立即开始"
+      },
+      "single": {
+        "name": "单机版",
+        "price": "$6,000",
+        "description": "每台机器，适合生产工作负载",
+        "features": {
+          "feature1": "专业技术支持",
+          "feature2": "高级模型优化",
+          "feature3": "多种推理引擎",
+          "feature4": "性能监控",
+          "feature5": "安全功能",
+          "feature6": "优先更新"
+        },
+        "cta": "联系销售"
+      },
+      "cluster": {
+        "name": "集群版",
+        "price": "$10,000",
+        "description": "每台机器，适合企业级规模部署",
+        "features": {
+          "feature1": "7x24企业级支持",
+          "feature2": "自动扩缩容",
+          "feature3": "负载均衡",
+          "feature4": "高可用性",
+          "feature5": "高级监控",
+          "feature6": "定制集成",
+          "feature7": "SLA保障"
+        },
+        "cta": "联系销售"
+      }
+    },
+    "contact": {
+      "description": "需要定制解决方案？我们的团队随时为您提供帮助。",
+      "cta": "联系我们"
+    }
+  },
   "footer": {
-    "description": "最全面的企业级推理服务平台，为生成式AI场景提供高性能、高可用的解决方案。",
+    "description": "Xinference 提供强大的异构多模型推理能力，支持企业高效部署和管理AI大模型，赋能业务创新",
     "products": {
       "title": "产品",
       "features": "功能特性",
@@ -129,6 +182,11 @@
       "api": "API参考",
       "community": "社区"
     },
-    "copyright": "Copyright © 2025 Xprobe Technology Co., Ltd."
+    "copyright": "© 2025 Xprobe Technology Co., Ltd. 版权所有",
+    "links": {
+      "github": "GitHub",
+      "twitter": "Twitter",
+      "discord": "Discord"
+    }
   }
 }

@@ -38,10 +38,19 @@ export function HeroSection() {
             
             {/* CTA按钮 */}
             <div className="flex flex-col sm:flex-row gap-6 justify-center mb-16 animate-fadeIn animate-delay-400">
-              <Button size="lg" className="bg-gradient-to-r from-brand-purple/80 to-brand-light-purple/80 hover:from-brand-purple hover:to-brand-light-purple text-white text-lg px-10 py-4 rounded-full font-medium shadow-lg hover:shadow-xl transition-all duration-300">
+              <Button 
+                size="lg" 
+                className="bg-gradient-to-r from-brand-purple/80 to-brand-light-purple/80 hover:from-brand-purple hover:to-brand-light-purple text-white text-lg px-10 py-4 rounded-full font-medium shadow-lg hover:shadow-xl transition-all duration-300"
+                onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLScQpR8WuKxFFMzWMNRQmO-AqueghbAaeG3F-4vzUqkXqTN6Qg/viewform?usp=dialog', '_blank')}
+              >
                 {t("cta.trial")}
               </Button>
-              <Button variant="outline" size="lg" className="text-lg px-10 py-4 rounded-full border border-brand-purple/40 text-brand-light-purple hover:bg-brand-purple/10 hover:border-brand-purple/60 hover:text-white backdrop-blur-sm transition-all duration-300">
+              <Button 
+                variant="outline" 
+                size="lg" 
+                className="text-lg px-10 py-4 rounded-full border border-brand-purple/40 text-brand-light-purple hover:bg-brand-purple/10 hover:border-brand-purple/60 hover:text-white backdrop-blur-sm transition-all duration-300"
+                onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLScQpR8WuKxFFMzWMNRQmO-AqueghbAaeG3F-4vzUqkXqTN6Qg/viewform?usp=dialog', '_blank')}
+              >
                 {t("cta.demo")}
               </Button>
             </div>
