@@ -10,6 +10,7 @@ export function Footer() {
   const locale = useLocale();
   const [showLineQR, setShowLineQR] = useState(false);
   const [showWeChatQR, setShowWeChatQR] = useState(false);
+  const [showKakaoQR, setShowKakaoQR] = useState(false);
   const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
@@ -83,6 +84,42 @@ export function Footer() {
                            locale === 'zh-TW' ? '掃描二維碼' : 
                            'Scan QR Code'}
                         </p>
+                      </div>
+                      {/* Arrow */}
+                      <div className="absolute top-full left-1/2 transform -translate-x-1/2 w-0 h-0 border-l-5 border-r-5 border-t-5 border-l-transparent border-r-transparent border-t-white"></div>
+                    </div>
+                  )}
+                </div>
+              )}
+              {/* KakaoTalk icon - show for Korean locale only */}
+              {isClient && locale === 'ko' && (
+                <div 
+                  className="relative"
+                  onMouseEnter={() => setShowKakaoQR(true)}
+                  onMouseLeave={() => setShowKakaoQR(false)}
+                >
+                  <div className="w-12 h-12 rounded-xl bg-yellow-500/10 border border-yellow-500/20 flex items-center justify-center hover:bg-yellow-500/20 hover:border-yellow-500/40 transition-all duration-300 hover:scale-110 cursor-pointer">
+                    <Image 
+                      src="/images/KakaoTalk_logo.svg" 
+                      alt="KakaoTalk" 
+                      width={24} 
+                      height={24}
+                      className="w-6 h-6"
+                    />
+                  </div>
+                  {/* QR Code Popup */}
+                  {isClient && showKakaoQR && (
+                    <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-3 p-4 bg-white rounded-lg shadow-2xl border border-gray-200 z-50 min-w-max">
+                      <div className="text-center">
+                        <Image 
+                          src="/images/kakao.png" 
+                          alt="KakaoTalk QR Code" 
+                          width={160} 
+                          height={160}
+                          className="mx-auto mb-2"
+                        />
+                        <p className="text-xs text-gray-700 font-medium">{t("links.kakao")}</p>
+                        <p className="text-xs text-gray-500 mt-0.5">QR 코드 스캔</p>
                       </div>
                       {/* Arrow */}
                       <div className="absolute top-full left-1/2 transform -translate-x-1/2 w-0 h-0 border-l-5 border-r-5 border-t-5 border-l-transparent border-r-transparent border-t-white"></div>

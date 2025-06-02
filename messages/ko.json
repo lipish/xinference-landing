@@ -187,7 +187,9 @@
       "github": "GitHub",
       "twitter": "Twitter",
       "discord": "Discord",
-      "wechat": "WeChat"
+      "wechat": "WeChat",
+      "kakao": "카카오톡",
+      "line": "라인"
     }
   }
 }
