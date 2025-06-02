@@ -75,7 +75,7 @@
   "features": {
     "section": {
       "badge": "Xinference 핵심 우위",
-      "title": "엔터프라이즈급 AI 배포를 위해 설계된 풀스택 플랫폼, 대규모 구현 문제 해결",
+      "title": "엔터프라이즈급 LLM 배포 플랫폼",
       "description": "애플리케이션에 강력한 AI 기능 지원을 제공하는 포괄적인 AI 추론 서비스 솔루션"
     },
     "engines": {
@@ -84,7 +84,7 @@
     },
     "hardware": {
       "title": "광범위한 컴퓨팅 파워 지원",
-      "description": "국내외 주요 컴퓨팅 파워 칩 완벽 지원: NVIDIA, Ascend, Intel, Cambricon, Hygon 등 이기종 하드웨어."
+      "description": "주요 컴퓨팅 파워 칩 완벽 지원: Nvidia, Intel, AMD, Apple 등 이기종 하드웨어, 이기종 컴퓨팅 파워의 통합 컴퓨팅 스케줄링 지원."
     },
     "performance": {
       "title": "엔터프라이즈급 분산 배포",
@@ -116,8 +116,19 @@
     "star": "GitHub에서 스타 주기"
   },
   "footer": {
-    "copyright": "저작권 © 2024 항저우 미래속도과기유한공사",
-    "icp": "浙ICP备2022033013号",
-    "security": "浙公网安备：33011002016954"
+    "description": "가장 포괄적인 엔터프라이즈급 추론 서비스 플랫폼으로, 생성형 AI 시나리오에 고성능 및 고가용성 솔루션을 제공합니다.",
+    "products": {
+      "title": "제품",
+      "features": "기능",
+      "pricing": "가격",
+      "enterprise": "엔터프라이즈"
+    },
+    "support": {
+      "title": "지원",
+      "docs": "문서",
+      "api": "API 참조",
+      "community": "커뮤니티"
+    },
+    "copyright": "Copyright © 2025 Xprobe Technology Co., Ltd."
   }
 }

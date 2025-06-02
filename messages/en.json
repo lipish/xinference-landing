@@ -68,7 +68,7 @@
   "features": {
     "section": {
       "badge": "Xinference Core Advantages",
-      "title": "Enterprise-grade AI deployment platform designed to solve large-scale implementation challenges",
+      "title": "Enterprise-grade LLM Deployment platform",
       "description": "Comprehensive AI inference service solution providing powerful AI capability support for your applications"
     },
     "engines": {
@@ -77,7 +77,7 @@
     },
     "hardware": {
       "title": "Extensive Computing Power Support",
-      "description": "Comprehensive adaptation of mainstream computing chips at home and abroad: NVIDIA, Ascend, Intel, Cambricon, Hygon and other heterogeneous hardware."
+      "description": "Comprehensive support for mainstream computing power chips: Nvidia, Intel, AMD, Apple and other heterogeneous hardware, with unified computing scheduling for heterogeneous computing power."
     },
     "performance": {
       "title": "Enterprise-grade Distributed Deployment",
@@ -109,8 +109,19 @@
     "star": "Star on GitHub"
   },
   "footer": {
-    "copyright": "Copyright © 2024 Hangzhou Future Speed Technology Co., Ltd.",
-    "icp": "浙ICP备2022033013号",
-    "security": "浙公网安备：33011002016954"
+    "description": "The most comprehensive enterprise-grade inference service platform, providing high-performance and highly available solutions for generative AI scenarios.",
+    "products": {
+      "title": "Products",
+      "features": "Features",
+      "pricing": "Pricing",
+      "enterprise": "Enterprise"
+    },
+    "support": {
+      "title": "Support",
+      "docs": "Documentation",
+      "api": "API Reference",
+      "community": "Community"
+    },
+    "copyright": "Copyright © 2025 Xprobe Technology Co., Ltd."
   }
 }

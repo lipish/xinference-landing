@@ -32,7 +32,7 @@ export function HeroSection() {
             </div>
             
             {/* 副标题 */}
-            <p className="text-xl sm:text-2xl text-text-secondary mb-12 leading-relaxed max-w-4xl mx-auto animate-fadeIn animate-delay-200">
+            <p className="text-xl sm:text-2xl text-gray-500 mb-12 leading-relaxed max-w-4xl mx-auto animate-fadeIn animate-delay-200">
               {t("subtitle")}
             </p>
             

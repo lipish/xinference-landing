@@ -15,9 +15,9 @@
   },
   "hero": {
     "title": {
-      "line1": "部署AI模型",
-      "line2": "快速且无缝",
-      "line3": "企业级就绪"
+      "line1": "大模型部署解决方案",
+      "line2": "快速集成·无缝扩展",
+      "line3": "生产级可用"
     },
     "subtitle": "任意模型，任意硬件，卓越性能",
     "description": "Xinference 提供强大的异构多模型推理能力，支持企业高效部署和管理AI大模型，赋能业务创新",
@@ -75,8 +75,8 @@
   "features": {
     "section": {
       "badge": "Xinference 核心优势",
-      "title": "Enterprise-grade AI deployment platform\ndesigned to solve large-scale implementation\nchallenges",
-      "description": "Comprehensive AI inference service solution providing powerful AI capability\nsupport for your applications"
+      "title": "企业级LLM部署平台",
+      "description": "全面的AI推理服务解决方案\n为您的应用提供强大AI能力支持"
     },
     "engines": {
       "title": "多引擎同时推理",
@@ -84,7 +84,7 @@
     },
     "hardware": {
       "title": "广泛的算力支持",
-      "description": "全面适配国内外主流算力芯片：NVIDIA、Ascend、Intel、Cambricon、Hygon 等异构硬件。"
+      "description": "全面适配主流算力芯片：Nvidia、Intel、AMD、Apple、昇腾、寒武纪、海光等异构硬件，并支持异构算力的统一计算调度。"
     },
     "performance": {
       "title": "企业级分布式部署",
@@ -116,8 +116,19 @@
     "star": "在 GitHub 上加星标"
   },
   "footer": {
-    "copyright": "版权所有 © 2024 杭州未来速度科技有限公司",
-    "icp": "浙ICP备2022033013号",
-    "security": "浙公网安备：33011002016954"
+    "description": "最全面的企业级推理服务平台，为生成式AI场景提供高性能、高可用的解决方案。",
+    "products": {
+      "title": "产品",
+      "features": "功能特性",
+      "pricing": "价格方案",
+      "enterprise": "企业版"
+    },
+    "support": {
+      "title": "支持",
+      "docs": "文档",
+      "api": "API参考",
+      "community": "社区"
+    },
+    "copyright": "Copyright © 2025 Xprobe Technology Co., Ltd."
   }
 }

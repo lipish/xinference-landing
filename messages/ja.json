@@ -75,7 +75,7 @@
   "features": {
     "section": {
       "badge": "Xinference コアアドバンテージ",
-      "title": "エンタープライズレベルAI展開のために設計されたフルスタックプラットフォーム、大規模実装の課題を解決",
+      "title": "エンタープライズレベルLLM展開プラットフォーム",
       "description": "包括的なAI推論サービスソリューションで、アプリケーションに強力なAI機能サポートを提供"
     },
     "engines": {
@@ -84,7 +84,7 @@
     },
     "hardware": {
       "title": "幅広いコンピューティングパワーサポート",
-      "description": "国内外の主要なコンピューティングパワーチップに完全対応：NVIDIA、Ascend、Intel、Cambricon、Hygonなどの異種ハードウェア。"
+      "description": "主要なコンピューティングパワーチップに完全対応：Nvidia、Intel、AMD、Appleなどの異種ハードウェア、異種コンピューティングパワーの統一計算スケジューリングをサポート。"
     },
     "performance": {
       "title": "エンタープライズレベルの分散展開",
@@ -116,8 +116,19 @@
     "star": "GitHubでスターを付ける"
   },
   "footer": {
-    "copyright": "著作権 © 2024 杭州未来速度科技有限公司",
-    "icp": "浙ICP备2022033013号",
-    "security": "浙公网安备：33011002016954"
+    "description": "最も包括的なエンタープライズグレードの推論サービスプラットフォーム、生成AIシナリオに高性能で高可用性のソリューションを提供します。",
+    "products": {
+      "title": "製品",
+      "features": "機能",
+      "pricing": "価格",
+      "enterprise": "エンタープライズ"
+    },
+    "support": {
+      "title": "サポート",
+      "docs": "ドキュメント",
+      "api": "APIリファレンス",
+      "community": "コミュニティ"
+    },
+    "copyright": "Copyright © 2025 Xprobe Technology Co., Ltd."
   }
 }

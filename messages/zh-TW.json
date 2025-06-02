@@ -75,7 +75,7 @@
   "features": {
     "section": {
       "badge": "Xinference 核心優勢",
-      "title": "專為企業級AI部署設計的全棧平台，解決大規模落地難題",
+      "title": "企業級LLM部署平台",
       "description": "全方位的AI推理服務解決方案，為您的應用提供強大的AI能力支持"
     },
     "engines": {
@@ -84,7 +84,7 @@
     },
     "hardware": {
       "title": "廣泛的算力支持",
-      "description": "全面適配國內外主流算力晶片：NVIDIA、Ascend、Intel、Cambricon、Hygon 等異構硬體。"
+      "description": "全面適配主流算力晶片：Nvidia、Intel、AMD、Apple、昇騰、寒武紀、海光等異構硬體，並支持異構算力的統一計算調度。"
     },
     "performance": {
       "title": "企業級分散式部署",
@@ -112,8 +112,19 @@
     "star": "在 GitHub 上加星標"
   },
   "footer": {
-    "copyright": "版權所有 © 2024 杭州未來速度科技有限公司",
-    "icp": "浙ICP备2022033013号",
-    "security": "浙公网安备：33011002016954"
+    "description": "最全面的企業級推理服務平台，為生成式AI場景提供高性能、高可用的解決方案。",
+    "products": {
+      "title": "產品",
+      "features": "功能特性",
+      "pricing": "價格方案",
+      "enterprise": "企業版"
+    },
+    "support": {
+      "title": "支援",
+      "docs": "文檔",
+      "api": "API參考",
+      "community": "社群"
+    },
+    "copyright": "Copyright © 2025 Xprobe Technology Co., Ltd."
   }
 }
