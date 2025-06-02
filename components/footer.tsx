@@ -61,8 +61,8 @@ export function Footer() {
             <h4 className="text-xl font-bold mb-6 text-brand-orange">{t("support.title")}</h4>
             <ul className="space-y-4">
               <li><a href="https://inference.readthedocs.io/" className="text-text-secondary hover:text-brand-orange transition-all duration-300 hover:translate-x-1">{t("support.docs")}</a></li>
-              <li><a href="https://inference.readthedocs.io/en/latest/reference/api/" className="text-text-secondary hover:text-brand-orange transition-all duration-300 hover:translate-x-1">{t("support.api")}</a></li>
-              <li><a href="https://github.com/xorbitsai/inference/discussions" className="text-text-secondary hover:text-brand-orange transition-all duration-300 hover:translate-x-1">{t("support.community")}</a></li>
+              <li><a href="https://inference.readthedocs.io/en/latest/reference/index.html" target="_blank" rel="noopener noreferrer" className="text-text-secondary hover:text-brand-orange transition-all duration-300 hover:translate-x-1">{t("support.api")}</a></li>
+              <li><a href="https://discord.gg/48qyxwhM" target="_blank" rel="noopener noreferrer" className="text-text-secondary hover:text-brand-orange transition-all duration-300 hover:translate-x-1">{t("support.community")}</a></li>
             </ul>
           </div>
         </div>
