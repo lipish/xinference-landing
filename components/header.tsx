@@ -36,13 +36,9 @@ export function Header() {
               <span className="relative z-10">{t("nav.pricing")}</span>
               <div className="absolute inset-x-0 -bottom-1 h-0.5 bg-gradient-to-r from-brand-pink to-brand-orange scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
             </a>
-            <a href="#docs" className="relative text-sm font-medium text-text-secondary hover:text-brand-orange transition-all duration-300 group">
+            <a href="https://inference.readthedocs.io/" target="_blank" rel="noopener noreferrer" className="relative text-sm font-medium text-text-secondary hover:text-brand-orange transition-all duration-300 group">
               <span className="relative z-10">{t("nav.docs")}</span>
               <div className="absolute inset-x-0 -bottom-1 h-0.5 bg-gradient-to-r from-brand-orange to-brand-pink scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
-            </a>
-            <a href="#contact" className="relative text-sm font-medium text-text-secondary hover:text-brand-light-purple transition-all duration-300 group">
-              <span className="relative z-10">{t("nav.contact")}</span>
-              <div className="absolute inset-x-0 -bottom-1 h-0.5 bg-gradient-to-r from-brand-light-purple to-brand-purple scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
             </a>
           </nav>
 
