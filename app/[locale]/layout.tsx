@@ -18,7 +18,7 @@ export async function generateMetadata({
 }: {
   params: { locale: string }
 }) {
-  if (!locales.includes(locale as any)) {
+  if (!locales.includes(locale as typeof locales[number])) {
     console.log("Locale not found:", locale); // Logging for debugging purpose
     notFound();
   }
@@ -40,6 +40,18 @@ export default async function LocaleLayout({children, params: {locale}}: Props) 
 
   return (
     <html lang={locale} suppressHydrationWarning>
+      <head>
+        {/* Google tag (gtag.js) */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17176992071" type="text/javascript"></script>
+        <script type="text/javascript" dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-17176992071');
+          `
+        }} />
+      </head>
       <body className={clsx(inter.className, 'bg-slate-50 dark:bg-slate-900')}>
         <NextIntlClientProvider locale={locale} messages={messages}> {/* Ensure locale prop is passed */}
           {children}
